@@ -14,18 +14,23 @@
     **
     *</p>
 
+    <form action="">
+        <label for="">Nhập chiều cao tam giác: </label>
+        <input type="number">
+        <button type="button">Submit</button>
+    </form>
 <script>
-prompt(" Nhập vào chiều cao tam giác vuông: ");
 
-   let i = 1;
 
-    while(i <= 1000000000){
-        console.log("*****");
-        console.log("****");
-        console.log("***");
-        console.log("**");
-        console.log("*");
-        i += 1;
+    let height = 10;
+    
+    let i = height;
+
+    while(i >= 1){
+     
+        console.log("*".repeat(i));
+        
+        i -= 1;
     };
 
      
